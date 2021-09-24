@@ -1,12 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); /*импортировали шрифт*/
 
-body {
-    background-color: #f1f1f1;
-    color: #0f141e;
+/* <link href="styles.css" rel="stylesheet"> - нужно вставить в head html файла чтобы он видел этот css фал */
+body { 
+    background-color: #f1f1f1;           /*цвет заднего плана*/
+    color: #0f141e;                      /*цвет шрифта*/
 
-    font-size: 16px;
-    font-weight: normal;
-    font-family: 'Roboto', sans-serif;
+    font-size: 16px;                       /*размер шрифта*/
+    font-weight: normal;                    /*жирность шрифта*/
+    font-family: 'Roboto', sans-serif;      /*Другой шрифт - альтернативный - семейство*/
 
 }
 
@@ -26,213 +27,217 @@ a:active {
 a:visited {
     color: grey;
 }
+/*# для id */
 
-.avatar {
+/*Классы*/
+.avatar {                                           /* класс нашей картинки*/
     width: "150"; 
     height: "200";
-    border-radius: 28px;
-    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    border-radius: 28px;                            /*Закругления*/
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25); /*тень от картинки*/
 }
 
-.info {
-    display: flex;
-    margin-bottom: 20px;
+.info {                                              /*контейнер внутри контейнера*/
+    display: flex;                                   /*Все в одну строчку*/
+    margin-bottom: 20px;                             /*отступ снизу*/
 }
 
-@media (max-width: 700px) {
-    .info {
-        text-align: center;
-        display: block;
+@media (max-width: 700px) {                          /*набор правил в условиях*/
+    .info {                                          /*блок личной инфы*/
+        text-align: center;                          /*центрируем его на случай если экран маленький*/
+        display: block;                              /**/
     }
 }
 
-.info-text {
-    margin-left: 40px;
+.info-text {                                         /*класс для групировки всегог что под фоткой*/   
+    margin-left: 40px;                               /*отступ от аватарки*/
 }
 
-.info-text h4 {
-    margin-bottom: 10px;
+.info-text h4 {                                      /*класс заголовка соц сетей*/
+    margin-bottom: 10px;                             /*отступ снизу от него*/
 }
 
-.info p {
+.info p {                                            /*Обращаемся к параграфам*/
+    color: #86898f;                                /*цвет текста*/
+    margin: 0;                                       /*отступы*/
+    font-style: italic;                              /*стиль шрифта*/
+    font-weight: bold;                               /*ширина текста*/
+    text-decoration: none;                           /*декорации типо подчеркивания*/
+    /* text-transform: uppercase; */                 /*трансформации типо с маленькой буквы*/
+    /* letter-spacing: 15px; */                      /*растояние между символами*/
+    /* word-spacing: 42px; */                        /*пространство между словами*/
+}
+
+ /* box model  */                                   /**/
+
+/* .social { */                                     /*отдельный блок соц сетей удаленный*/
+    /* background: green; */                        /**/
+    /* padding: 15px; */                            /**/
+    /* padding: 15px 40px; */                       /**/
+    /* padding: 15px 20px 25px 30px; */             /**/
+    /* padding-top: 15px; */                        /**/
+    /* padding-right: 20px; */                      /**/
+    /* padding-bottom: 25px; */                    /**/
+    /* padding-left: 30px; */                       /**/
+    /* border: 5px solid red; */                    /**/
+    /* border-bottom-style: double; */              /* нижняя граница двойная*/
+    /* margin: 5px;  */                             /*края*/
+    /* border-top-width: 15px; */                   /*ширина верхней границы*/
+    /* border-right-color: blue; */                 /*цвет правой границы синий*/
+/* }  */
+
+
+
+.container {                                        /*Див всего блока ниже*/
+    max-width: 1500px;                              /*Ширина всего блока*/
+    margin: auto;                                   /*сделать контент по середине*/
+    padding-top: 30px                               /*отступ от потолка страницы*/
+}
+
+/* .box-model > div { */                            /*только дети этого дива*/
+    /* float: left; */                              /**/
+    /* background: black; */                        /*Задний цвет коробки*/
+    /* height: 200px; */                            /*высота коробки*/
+    /* width: 25%; */                               /*ширина коробки*/
+    /* border: solid red; */                        /*рамка вокруг всех коробочек*/
+    /* box-sizing: border-box; */                   /*свойство нужное чтоб не сливались    коробки*/
+/* }  */
+
+.bg-yellow {                                        /*класс внутреннему диву*/
+    background: #fff9dc;                          /**/
+}                   
+
+.bg-green {                                         /*класс внутреннему диву*/
+    background: #e5ffe7;                          /**/
+}
+
+.bg-red {                                           /*класс внутреннему диву*/
+    background: #ffe5e5;                          /**/
+}
+
+.card {                                             /*блок хобби работы работ*/
+    padding: 15px 20px;                             /**/
+    margin-bottom: 20px;                            /*отступ снизу*/
+    border-radius: 20px;                            /**/
+}
+.card h2 {                                          /**/
+    margin-bottom: 10px;                            /*отступ снизу*/
+}
+
+.list {                                             /**/
+    padding: 0 20px;                                /*убераем отступ ↑↓ слева оставляем 20 зч*/
+    /* list-style: none; */                         /*убрать все отступы*/
+}
+
+.list li {                                          /*элементы списка*/
+    color: #86898f;                               /*цвет текста*/
+    margin-bottom: 10px;                            /*отступы от элементов*/
+    /* border-bottom: 1px solid grey; */            /*подчеркивание*/
+}
+
+.table {                                            /*таблица*/
+    width: 100%;                                    /*ширина во весь экран*/
+}
+.table td {                                         /*ячейки таблицы*/
+    padding-bottom: 10px;                           /**/
+
+}
+
+.table td:nth-child(2), .table td:nth-child(3), .table td:nth-child(4) {    /*обращаемся к детям таблицы*/
     color: #86898f;
-    margin: 0;
-    font-style: italic;
-    font-weight: bold;
-    text-decoration: none;
-    /* text-transform: uppercase; */
-    /* letter-spacing: 15px; */
-    /* word-spacing: 42px; */
-}
-
-/* box model
-.social {
-    background: green;
-    /* padding: 15px; */
-    /* padding: 15px 40px; */
-    /* padding: 15px 20px 25px 30px; */
-    /* padding-top: 15px;
-    padding-right: 20px;
-    padding-bottom: 25px;
-    padding-left: 30px;
-    border: 5px solid red;
-    border-bottom-style: double;
-    margin: 5px; */
-    /* border-top-width: 15px; */
-    /* border-right-color: blue; */
-/* } */ 
-
-.container {
-    max-width: 1500px;
-    margin: auto;
-    padding-top: 30px
-}
-
-/* .box-model > div {
-    float: left;
-    background: black;
-    height: 200px;
-    width: 25%;
-    border: solid red;
-    box-sizing: border-box;
-
-} */
-
-.bg-yellow {
-    background: #fff9dc;
-}
-
-.bg-green {
-    background: #e5ffe7;
-}
-
-.bg-red {
-    background: #ffe5e5;
-}
-
-.card {
-    padding: 15px 20px;
-    margin-bottom: 20px;
-    border-radius: 20px;
-}
-.card h2 {
-    margin-bottom: 10px;
-}
-
-.list {
-    padding: 0 20px;
-    /* list-style: none; */
-}
-
-.list li {
-    color: #86898f;
-    margin-bottom: 10px;
-    /* border-bottom: 1px solid grey; */
-}
-
-.table {
-    width: 100%;
-}
-.table td {
-    padding-bottom: 10px;
 
 }
 
-.table td:nth-child(2), .table td:nth-child(3), .table td:nth-child(4) {
-    color: #86898f;
-
+.table td:nth-child(4) {                            /*4й в порядке ребенок*/
+    margin-bottom: 0;                               /**/
+    max-width: 500px;                               /**/
 }
 
-.table td:nth-child(4) {
-    margin-bottom: 0;
-    max-width: 500px;
+/* /* .table tr:nth-child(odd) {   */               /*закрасить через ячейку*/
+/*  */
+/* } */
+
+/* .table tr:nth-child(even) { */
+    /* background: green; */
+/* } */ */
+
+.link-list {                                        /*Список ссылок*/
+    list-style: none;                               /*точки нумерации*/
+    padding: 0;                                     /*убераем отступ по умолчанию*/
 }
 
-/* .table tr:nth-child(odd) {
-    background: red;
+.link-list li {                                     /**/    
+    margin-bottom: 10px;                             /*отступ снизу от строки*/
+    padding-bottom: 5px;                             /*отступ от границы*/
+    border-bottom: 1px solid#ccc;                 /*граница внизу*/
 }
 
-.table tr:nth-child(even) {
-    background: green;
-} */
-
-.link-list {
-    list-style: none;
-    padding: 0;
+.contact h2 {                                       /*Заголовок*/
+    text-align: center;                             /*центрование заголовка*/
 }
 
-.link-list li {
-    margin-bottom: 10px;
-    padding-bottom: 5px;
-    border-bottom: 1px solid#ccc;
+.form-group label {                                 /*див отвечающий за сообщения мне*/
+    display: block;                                 /*каждый на своей строчке*/
+    font-size: 14px;                                /*размер шрифта*/
+    color: #86898f;                               /*цвет шрифта*/
 }
 
-.contact h2 {
-    text-align: center;
+.form-group input, .form-group textarea {           /*блок инпутов*/
+    width: 100%;                                    /* ширина родительского блока*/
+    box-sizing: border-box;                         /**/
+    border: none;                                   /*убираем базовую границу */
+    background: transparent;                        /*обнуляем все границы*/
+    border-bottom: 1px solid #ccc;              /*небольшая нижняя граница*/
+    color: black;                                   /*цвет в инпутах*/
+    padding: 15px 0 10px;                           /*расстояние между строками*/
+    outline: none;                                  /*выделяющаяся граница обнулена*/
+    font-family: inherit;                           /*семейство шрифтов наследуется*/
 }
 
-.form-group label {
-    display: block;
-    font-size: 14px;
-    color: #86898f;
+.row {                                              /*Внутренняя коробка ссылок*/
+    display: flex;                                  /*оба элемента на одной строчке*/
+    margin-bottom: 20px;                            /*отступ*/
 }
 
-.form-group input, .form-group textarea {
-    width: 100%;
-    box-sizing: border-box;
-    border: none;
-    background: transparent;
-    border-bottom: 1px solid #ccc;
-    color: black;
-    padding: 15px 0 10px;
-    outline: none;
-    font-family: inherit;
+.row > .form-group {                                /**/
+    width: 50%;                                     /*растояние группы*/
+    margin-right: 20px;                             /*отступ справа*/
 }
 
-.row {
-    display: flex;
-    margin-bottom: 20px;
+.row > .form-group:last-child {                     /**/
+    margin-right: 0;                                /**/
+}       
+
+.btn {                                              /*класс кнопки*/
+    background: #111;                             /*задний план*/
+    padding: 15px 20px;                             /**/
+    color: #fff;                                  /*цвет шрифта*/
+    border: none;                                   /*рамка кнопки*/
+    font-family: inherit;                           /*наследуется шрифт*/
+    cursor: pointer;                                /*меняется курсор при наведении*/
 }
 
-.row > .form-group {
-    width: 50%;
-    margin-right: 20px;
-}
-
-.row > .form-group:last-child {
-    margin-right: 0;
-}
-
-.btn {
-    background: #111;
-    padding: 15px 20px;
-    color: #fff;
-    border: none;
-    font-family: inherit;
-    cursor: pointer;
-}
-
-.btn:hover {
-    opacity: 0.9;
+.btn:hover {                                        /*псевдоселектор*/
+    opacity: 0.9;                                   /*меняется состояние кнопки*/
 }
 
 /* Position */
 /* 
-.position {
-    position: relative;
-    border: 4px solid black;
-    margin-top: 40px;
-    padding: 20px;
-    height: 300px;
+.position {                                         
+    position: relative;                             положение элимента
+    border: 4px solid black;                        
+    margin-top: 40px;                               
+    padding: 20px;                                  
+    height: 300px;                                  
 }
 
-.box {
-    position: fixed;
-    top: 0px;
-    left: 0px;
+.box {                                              квадратик
+    position: fixed;                                можно поместить на верх экрана или заставить ерзать с нами
+    top: 0px;                                       
+    left: 0px;                                      
 
     
-    width: 100%;
-    height: 50px;
-    background: lightcoral;
+    width: 100%;                                    
+    height: 50px;                                   
+    background: lightcoral;                         
 } */
