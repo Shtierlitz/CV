@@ -176,6 +176,11 @@ a:visited {
     text-align: center;                             /*центрование заголовка*/
 }
 
+.contact h6 {                                       /*Заголовок*/
+    text-align: center;                             /*центрование заголовка*/
+}
+
+
 .form-group label {                                 /*див отвечающий за сообщения мне*/
     display: block;                                 /*каждый на своей строчке*/
     font-size: 14px;                                /*размер шрифта*/
