@@ -142,6 +142,21 @@ a:visited {
     padding-bottom: 10px;                           /**/
 
 }
+.tools {
+    border-radius: 20px;
+    width: 100%;
+}
+.tools td {
+    padding: 5px 10px;
+    font-size: 20px;
+}
+.tools th {
+    font-size: 20px;
+}
+
+.info-text h2 {
+    text-align: justify;
+}
 
 .table td:nth-child(2), .table td:nth-child(3), .table td:nth-child(4) {    /*обращаемся к детям таблицы*/
     color: #86898f;
