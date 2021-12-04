@@ -140,8 +140,20 @@ a:visited {
 }
 .table td {                                         /*ячейки таблицы*/
     padding-bottom: 10px;                           /**/
-
 }
+
+.table a {
+    color: #008000; /* Цвет обычной ссылки */ 
+    text-decoration: none; /* Убираем подчеркивание у ссылок */
+}
+.table a:visited {
+    color: #800080; /* Цвет посещённой ссылки */
+}
+.table a:hover {
+    color: #800000; /* Цвет ссылки при наведении на нее курсора мыши */  
+    text-decoration: underline; /* Добавляем подчеркивание */
+}
+
 .tools {
     border-radius: 20px;
     width: 100%;
