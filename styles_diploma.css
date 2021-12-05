@@ -9,18 +9,19 @@ body {
 
 }
 .container {
-    max-width: 1500px;                              /*Ширина всего блока*/
+    max-width: auto;                              /*Ширина всего блока*/
     margin: auto;                                   /*сделать контент по середине*/
     padding-top: 30px;                               /*отступ от потолка страницы*/
-
 }
 
 .SL h1{
     text-align: center;
+    margin: auto;
 }
 
 .levels h2 {
     text-align: center;
+    margin: auto;
     margin-top: 100px;
 }
 .container h2{
@@ -33,7 +34,6 @@ body {
         padding: 15px; /* Расстояние от картинки до рамки */
         background: #666; /* Цвет фона */
         margin-left: 200px;
-
 }
 
 
@@ -47,10 +47,11 @@ body {
 }
 .career1_1 {
     display: flex;
+    align-self: center;
 }
 
 .level1 {
-    max-width: 1500px;                              /*Ширина всего блока*/
+    max-width: auto;                              /*Ширина всего блока*/
     margin: auto;                                   /*сделать контент по середине*/
     padding-top: 30px;                               /*отступ от потолка страницы*/
 }
@@ -62,10 +63,12 @@ body {
     border: 2px solid #55c5e9; /* Рамка вокруг фотографии */
     padding: 15px; /* Расстояние от картинки до рамки */
     background: #666; /* Цвет фона */
+    
 }
 .level1 h2 {
     text-align: center;
-    margin-top: 50px;
+    margin: auto;
+
 }
 
 .level_1:hover {
@@ -74,7 +77,7 @@ body {
 }
 
 .level2 {
-    max-width: 1500px;                              /*Ширина всего блока*/
+    max-width: auto;                              /*Ширина всего блока*/
     margin: auto;                                   /*сделать контент по середине*/
     padding-top: 30px;                               /*отступ от потолка страницы*/
     display: flex;
@@ -123,6 +126,7 @@ body {
 }
 .awards h2 {
     text-align: center;
+    margin-left: 25%;
 }
 
 .awards1_1 {
