@@ -105,6 +105,7 @@ body {
 .level_1:hover {
     
     transform: scale(2); /* Увеличиваем масштаб */
+    transition: 1s; /* Время эффекта */
 }
 
 
