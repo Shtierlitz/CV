@@ -8,33 +8,35 @@ body {
     font-family: 'Roboto', sans-serif;      /*Другой шрифт - альтернативный - семейство*/
 
 }
+.container {
+    max-width: 1500px;                              /*Ширина всего блока*/
+    margin: auto;                                   /*сделать контент по середине*/
+    padding-top: 30px;                               /*отступ от потолка страницы*/
+
+}
+
 .SL h1{
     text-align: center;
-} 
+}
+
 .levels h2 {
     text-align: center;
     margin-top: 100px;
 }
-.container_career h2{
+.container h2{
     text-align: center;
     margin-top: 100px;
 } 
 
-.container_career img  {
+.container img  {
         border: 2px solid #55c5e9; /* Рамка вокруг фотографии */
         padding: 15px; /* Расстояние от картинки до рамки */
         background: #666; /* Цвет фона */
+        margin-left: 200px;
 
 }
 
- .career1 {
-    /* margin-top: 100px; */
-    margin-left: 24%;
-}
-.career2 {
-    /* margin-top: 100px; */
-    margin-left: 100px;
-} 
+
 .career1:hover {
     transform: scale(2); /* Увеличиваем масштаб */
     transition: 1s; /* Время эффекта */
@@ -42,6 +44,18 @@ body {
 .career2:hover {
     transform: scale(2); /* Увеличиваем масштаб */
     transition: 1s; /* Время эффекта */
+}
+.career1_1 {
+    display: flex;
+}
+
+.level1 {
+    max-width: 1500px;                              /*Ширина всего блока*/
+    margin: auto;                                   /*сделать контент по середине*/
+    padding-top: 30px;                               /*отступ от потолка страницы*/
+}
+.level1_1 {
+    display: flex;
 }
 
 .level1 img  {
@@ -59,30 +73,23 @@ body {
     transition: 1s; /* Время эффекта */
 }
 
+.level2 {
+    max-width: 1500px;                              /*Ширина всего блока*/
+    margin: auto;                                   /*сделать контент по середине*/
+    padding-top: 30px;                               /*отступ от потолка страницы*/
+    display: flex;
+}
+
+
 .level2 img  {
     border: 2px solid #55c5e9; /* Рамка вокруг фотографии */
     padding: 15px; /* Расстояние от картинки до рамки */
     background: #666; /* Цвет фона */
+    margin-left: 40px;
+    
 }
 
-.level_5 {
-    /* margin-top: 100px; */
-    margin-left: 24%;
-}
-.level_4 {
-    /* margin-top: 200px; */
-    margin-left: 100px;
-}
 
-.level_3 {
-    margin-top: 20px;
-    margin-left: 10%;
-}
-.level_2 {
-    margin-top: 20px;
-    margin-left: 100px;
-    margin-right: 100px;
-}
 
 
 
@@ -117,13 +124,9 @@ body {
 .awards h2 {
     text-align: center;
 }
-.Best_New {
-    margin-top: 100px;
-    margin-left: 24%;
-}
-.best_second {
-    margin-top: 100px;
-    margin-left: 100px;
+
+.awards1_1 {
+    display: flex;
 }
 
 .Best_New:hover {
