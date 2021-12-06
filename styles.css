@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); /*импортировали шрифт*/
 
 /* <link href="styles.css" rel="stylesheet"> - нужно вставить в head html файла чтобы он видел этот css фал */
+
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
 body { 
     background-color: #f1f1f1;           /*цвет заднего плана*/
     color: #0f141e;                      /*цвет шрифта*/
