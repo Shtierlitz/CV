@@ -43,10 +43,10 @@ body {
     align-self: center;
 }
 .career1 {
-    margin: 30px;
+    margin: 20px;
 }
 .career2 {
-    margin: 30px;
+    margin: 20px;
 }
 .career1:hover {
     transform: scale(2); /* Увеличиваем масштаб */
@@ -100,25 +100,26 @@ body {
 }
 
 .level_5 {
-    margin: 30px;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 .level_4 {
-    margin: 30px;
+    margin: 20px;
 }
 .level_3 {
-    margin: 30px;
+    margin: 20px;
 }
 .level_2 {
-    margin: 30px;
+    margin: 20px;
 }
 .level_1 {
-    margin: 30px;
+    margin: 20px;
 }
 .Best_New {
-    margin: 30px;
+    margin: 20px;
 }
 .best_second {
-    margin: 30px;
+    margin: 20px;
 }
 
 .level_5:hover {
