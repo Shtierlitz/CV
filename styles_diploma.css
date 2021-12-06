@@ -9,13 +9,15 @@ body {
 
 }
 .container {
-    max-width: auto;                              /*Ширина всего блока*/
-    margin: auto;                                   /*сделать контент по середине*/
+
     padding-top: 30px;                               /*отступ от потолка страницы*/
+    max-width: 1000px;
+
 }
 
 .SL h1{
     text-align: center;
+    margin: auto;
 
 }
 
@@ -33,14 +35,18 @@ body {
         border: 2px solid #55c5e9; /* Рамка вокруг фотографии */
         padding: 15px; /* Расстояние от картинки до рамки */
         background: #666; /* Цвет фона */
-        margin-left: 200px;
 }
 
 .level2_2 {
     display: block;
     align-self: center;
 }
-
+.career1 {
+    margin: 30px;
+}
+.career2 {
+    margin: 30px;
+}
 .career1:hover {
     transform: scale(2); /* Увеличиваем масштаб */
     transition: 1s; /* Время эффекта */
@@ -92,9 +98,27 @@ body {
     
 }
 
-
-
-
+.level_5 {
+    margin: 30px;
+}
+.level_4 {
+    margin: 30px;
+}
+.level_3 {
+    margin: 30px;
+}
+.level_2 {
+    margin: 30px;
+}
+.level_1 {
+    margin: 30px;
+}
+.Best_New {
+    margin: 30px;
+}
+.best_second {
+    margin: 30px;
+}
 
 .level_5:hover {
     transform: scale(2); /* Увеличиваем масштаб */
