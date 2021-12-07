@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); /*импортировали шрифт*/
+body { 
+    background-color: #f1f1f1;           /*цвет заднего плана*/
+    color: #0f141e;                      /*цвет шрифта*/
+    font-size: 16px;                       /*размер шрифта*/
+    font-weight: normal;                    /*жирность шрифта*/
+    font-family: 'Roboto', sans-serif;      /*Другой шрифт - альтернативный - семейство*/
+}
+
+.container a {
+    color: black;
+    text-decoration:underline;
+
+}
+.container a:hover {
+    text-decoration: none;
+}
+.container a:active {
+    color: blue;
+}
+
+.container a:visited {
+    color: grey;
+}
+.container {
+
+    padding-top: 30px;                               /*отступ от потолка страницы*/
+    max-width: 1000px;
+    margin: auto;
+}
+.container img  {
+    border: 2px solid #55c5e9; /* Рамка вокруг фотографии */
+    padding: 15px; /* Расстояние от картинки до рамки */
+    background: #666; /* Цвет фона */
+    margin-left: 25%;
+}
+.container h1 {
+    text-align: center;
+}
+.container h3 {
+    margin-left: 25%;
+}
+.director {
+    text-align: center;
+}
+.director:hover{
+    transform: scale(1.5); /* Увеличиваем масштаб */
+    transition: 1s; /* Время эффекта */
+}
