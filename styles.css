@@ -2,8 +2,8 @@
 
 /* <link href="styles.css" rel="stylesheet"> - нужно вставить в head html файла чтобы он видел этот css фал */
 
-html {
-    -ms-text-size-adjust: 100%;
+html {                                      /*делает во весь экран на андроиде*/
+    -ms-text-size-adjust: 100%;             /*и не меняет размер шрифта произвольно*/
     -webkit-text-size-adjust: 100%;
 }
 

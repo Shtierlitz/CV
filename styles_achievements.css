@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); /*импортировали шрифт*/
+body { 
+    background-color: #f1f1f1;           /*цвет заднего плана*/
+    color: #0f141e;                      /*цвет шрифта*/
+
+    font-size: 16px;                       /*размер шрифта*/
+    font-weight: normal;                    /*жирность шрифта*/
+    font-family: 'Roboto', sans-serif;      /*Другой шрифт - альтернативный - семейство*/
+
+}
+.container {
+
+    padding-top: 30px;                               /*отступ от потолка страницы*/
+    max-width: 1000px;
+    margin: auto;
+
+}
+
+.SL h1 {
+    text-align: center;
+}
+
+.SL h2{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.levels h2 {
+    text-align: center;
+}
+
+
+.container img  {
+        border: 2px solid #55c5e9; /* Рамка вокруг фотографии */
+        padding: 15px; /* Расстояние от картинки до рамки */
+        background: #666; /* Цвет фона */
+}
+
+.level2_2 {
+    display: block;
+    
+}
+.career1 {
+    margin: 20px;
+    align-items: center;
+}
+.career2 {
+    margin: 20px;
+}
+.career1:hover {
+    transform: scale(2); /* Увеличиваем масштаб */
+    transition: 1s; /* Время эффекта */
+}
+.career2:hover {
+    transform: scale(2); /* Увеличиваем масштаб */
+    transition: 1s; /* Время эффекта */
+}
+.career1_1 {
+    display:block;
+    align-items: center;
+}
+
+.level1 {
+    padding-top: 30px;                               /*отступ от потолка страницы*/
+}
+.level1_1 {
+    display:block
+}
+
+
+.level1 img  {
+    border: 2px solid #55c5e9; /* Рамка вокруг фотографии */
+    padding: 15px; /* Расстояние от картинки до рамки */
+    background: #666; /* Цвет фона */
+}
+
+.level1 h2 {
+    text-align: center;
+
+}
+
+.level_1:hover {
+    transform: scale(2); /* Увеличиваем масштаб */
+    transition: 1s; /* Время эффекта */
+}
+
+.level2 {
+
+    padding-top: 30px;                               /*отступ от потолка страницы*/
+    display:block
+}
+
+
+.level2 img  {
+    border: 2px solid #55c5e9; /* Рамка вокруг фотографии */
+    padding: 15px; /* Расстояние от картинки до рамки */
+    background: #666; /* Цвет фона */
+    
+}
+
+.level_5 {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.level_4 {
+    margin: 20px;
+}
+.level_3 {
+    margin: 20px;
+}
+.level_2 {
+    margin: 20px;
+}
+.level_1 {
+    margin: 20px;
+}
+.Best_New {
+    margin: 20px;
+}
+.best_second {
+    margin: 20px;
+}
+
+.level_5:hover {
+    transform: scale(2); /* Увеличиваем масштаб */
+    transition: 1s; /* Время эффекта */
+}
+.level_4:hover {
+    transform: scale(2); /* Увеличиваем масштаб */
+    transition: 1s; /* Время эффекта */
+}
+.level_3:hover {
+    transform: scale(2); /* Увеличиваем масштаб */
+    transition: 1s; /* Время эффекта */
+}
+.level_2:hover {
+    transform: scale(2); /* Увеличиваем масштаб */
+    transition: 1s; /* Время эффекта */
+}
+.level_1:hover {
+    
+    transform: scale(2); /* Увеличиваем масштаб */
+    transition: 1s; /* Время эффекта */
+}
+
+
+.awards img  {
+    border: 2px solid #55c5e9; /* Рамка вокруг фотографии */
+    padding: 15px; /* Расстояние от картинки до рамки */
+    background: #666; /* Цвет фона */
+}
+.awards h2 {
+    text-align: center;
+}
+
+.awards1_1 {
+    display:block
+}
+
+.Best_New:hover {
+    transform: scale(2); /* Увеличиваем масштаб */
+    transition: 1s; /* Время эффекта */
+}
+
+.best_second:hover {
+    transform: scale(2); /* Увеличиваем масштаб */
+    transition: 1s; /* Время эффекта */
+}
