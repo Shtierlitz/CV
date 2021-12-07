@@ -1,17 +1,19 @@
+<!-- Через 10 секунд после появления сообщения об отправке или ошибке — отправляемся на сайт Кода :) -->
+<meta http-equiv='refresh' content='10; url=http://thecode.local/'>
+<meta charset="UTF-8" />
+<!-- Начался блок PHP -->
 <?php
-$fio = $_POST['fio'];
+// Получаем значения переменных из пришедших данных
+$name = $_POST['name'];
 $email = $_POST['email'];
-$fio = htmlspecialchars($fio);
-$email = htmlspecialchars($email);
-$fio = urldecode($fio);
-$email = urldecode($email);
-$fio = trim($fio);
-$email = trim($email);
-//echo $fio;
-//echo "<br>";
-//echo $email;
-if (mail("rollbar1990@gmail.com", "Заявка с резюме", "ФИО:".$fio.". E-mail: ".$email ,"From: rollbar1990@gmail.com \r\n"))
- {     echo "сообщение успешно отправлено";
-} else {
-    echo "при отправке сообщения возникли ошибки";
-}?>
+$message = $_POST['message'];
+// Формируем сообщение для отправки, в нём мы соберём всё, что ввели в форме
+$mes = "Имя: $name \nE-mail: $email \nТекст: $message";
+// Пытаемся отправить письмо по заданному адресу
+// Если нужно, чтобы письма всё время уходили на ваш адрес — замените первую переменную $email на свой адрес электронной почты
+$send = mail('rollbar1990@gmail.com', $mes, "Content-type:text/plain; charset = UTF-8\r\nFrom:$email");
+// Если отправка прошла успешно — так и пишем
+if ($send == 'true') {echo "Сообщение отправлено";}
+// Если письмо не ушло — выводим сообщение об ошибке
+else {echo "Ой, что-то пошло не так";}
+?>
