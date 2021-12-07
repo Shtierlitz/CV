@@ -49,7 +49,7 @@ body {
 .rs_1 {
     margin: 20px;
 }
-.rs_2 {
+.rs_2_2 {
     margin: 20px;
 }
 .pol_st {
@@ -81,7 +81,7 @@ body {
     transform: scale(1.5); /* Увеличиваем масштаб */
     transition: 1s; /* Время эффекта */
 }
-.rs_2:hover{
+.rs_2_2:hover{
     transform: scale(1.5); /* Увеличиваем масштаб */
     transition: 1s; /* Время эффекта */
 }
