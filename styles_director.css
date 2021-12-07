@@ -7,21 +7,7 @@ body {
     font-family: 'Roboto', sans-serif;      /*Другой шрифт - альтернативный - семейство*/
 }
 
-.container a {
-    color: black;
-    text-decoration:underline;
 
-}
-.container a:hover {
-    text-decoration: none;
-}
-.container a:active {
-    color: blue;
-}
-
-.container a:visited {
-    color: grey;
-}
 .container {
 
     padding-top: 30px;                               /*отступ от потолка страницы*/
