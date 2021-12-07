@@ -8,6 +8,10 @@
 </head>
 
 <body>
+    <div class="forein">
+      <p><a href="index.html" target="_blank"><img src="ru_link.png"  alt="RU" class="ru_img">RU</a>|
+        <a href="Resume.html" target="_blank"><img src="usa_link.png"  alt="RU" class="ru_img">EN</a></p>
+    </div>
     <div class="container">
         <div class="info">
             <img src="Davydovskyi.jpg" height="530" width="400" alt="Тут моя фотка" class="avatar">
@@ -157,17 +161,17 @@
             <h2>Связаться со мной</h2>
             <h6>(функция временно недоступна)</h6>
 
-            <form action="\">
+            <form action="send.php" method="post">
                 <div class="row">
                     <div class="form-group">
                         <label for="name">Ваше имя:</label>
-                        <input type="text" id="name" placeholder="Введите ваше имя...">
+                        <input type="text" name="fio" placeholder="Введите ваше имя...">
                     </div>
 
 
                     <div class="form-group">
                         <label for="name">Ваш email:</label>
-                        <input type="text" id="name" placeholder="Введите email...">
+                        <input type="text" name="email" placeholder="Введите email...">
                     </div>
                 </div>
 

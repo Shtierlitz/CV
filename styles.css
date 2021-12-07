@@ -16,6 +16,15 @@ body {
     font-family: 'Roboto', sans-serif;      /*Другой шрифт - альтернативный - семейство*/
 
 }
+.forein {
+    margin-left: 90%;
+}
+.forein img {
+    width: 35px;
+    height: 19px;
+    border-radius: 5px;
+    
+}
 
 a {
     color: black;
