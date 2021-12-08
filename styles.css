@@ -14,17 +14,31 @@ body {
     font-size: 16px;                       /*размер шрифта*/
     font-weight: normal;                    /*жирность шрифта*/
     font-family: 'Roboto', sans-serif;      /*Другой шрифт - альтернативный - семейство*/
-
 }
-.forein {
-    margin-left: 92%;
 
-} 
+.forein {
+    display: block;
+    position: absolute;
+    right:0px;
+    top: 0px;
+    margin: auto;
+}
+.forein li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    
+}
+
+/* .forein {
+    margin: 0% 0% 0% 90%;
+    position: absolute;
+}  */
 .forein img {
     width: 35px;
     height: 19px;
     border-radius: 5px;
-}
+} 
 
 
 
