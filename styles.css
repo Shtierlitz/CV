@@ -97,7 +97,16 @@ a:visited {
 }
 
  /* box model  */                                   /**/
+.contacts1 {
+    float: left;
+    text-align: left;
+}
 
+.contacts2 {
+    float: left;
+    margin-left: 50px;
+    text-align: left;
+}
 /* .social { */                                     /*отдельный блок соц сетей удаленный*/
     /* background: green; */                        /**/
     /* padding: 15px; */                            /**/
