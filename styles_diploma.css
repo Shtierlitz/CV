@@ -63,6 +63,10 @@ body {
     text-align: center;
 }
 
+.step_senter {
+    margin-left: 27%;
+}
+
 
 .dip_avers:hover{
     transform: scale(1.5); /* Увеличиваем масштаб */
@@ -89,6 +93,11 @@ body {
     transition: 1s; /* Время эффекта */
 }
 .pol_st:hover{
-    transform: scale(1.2); /* Увеличиваем масштаб */
+    transform: scale(1.5); /* Увеличиваем масштаб */
+    transition: 1s; /* Время эффекта */
+}
+
+.step_senter:hover{
+    transform: scale(1.5); /* Увеличиваем масштаб */
     transition: 1s; /* Время эффекта */
 }
