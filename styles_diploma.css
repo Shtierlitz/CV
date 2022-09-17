@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); /*импортировали шрифт*/
 
-@viewport { width: 768px; }.
+@viewport { width: 1000px; }.
 
 body { 
     background-color: #f1f1f1;           /*цвет заднего плана*/
