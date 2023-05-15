@@ -196,10 +196,10 @@ a:visited {
 }
 .tools td {
     padding: 5px 10px;
-    font-size: 20px;
+    font-size: 15px;
 }
 .tools th {
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .info-text h2 {
@@ -289,6 +289,11 @@ a:visited {
 
 .btn:hover {                                        /*псевдоселектор*/
     opacity: 0.9;                                   /*меняется состояние кнопки*/
+}
+
+.mb-5 {
+    display: flex;
+    justify-content: start;
 }
 
 /* Position */
