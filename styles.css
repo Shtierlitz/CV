@@ -291,7 +291,7 @@ a:visited {
     opacity: 0.9;                                   /*меняется состояние кнопки*/
 }
 
-.mb-5 {
+.d-flex {
     display: flex;
     justify-content: start;
 }
